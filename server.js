@@ -20,7 +20,7 @@ app.use(helmet());
 
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "http://localhost:5173", // fallback if not set
+    origin:"https://hotel-management-frontend-lilac.vercel.app"|| "http://localhost:5173", // fallback if not set
     credentials: true,
   })
 );
