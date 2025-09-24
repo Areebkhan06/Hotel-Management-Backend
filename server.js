@@ -20,7 +20,7 @@ app.use(helmet());
 
 app.use(
   cors({
-    origin:"https://hotel-management-frontend-bi3byjci9-khans-projects-cfde2cb3.vercel.app"|| "http://localhost:5173", // fallback if not set
+    origin:"https://hotel-management-frontend-22b2.onrender.com"|| "http://localhost:5173", // fallback if not set
     credentials: true,
   })
 );
