@@ -20,7 +20,7 @@ app.use(helmet());
 
 app.use(
   cors({
-    origin:"https://hotel-management-frontend-22b2.onrender.com"|| "https://hotel-management-frontend-lilac.vercel.app/", // fallback if not set
+    origin:"https://hotel-management-frontend-lilac.vercel.app", // fallback if not set
     credentials: true,
   })
 );
